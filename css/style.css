@@ -263,4 +263,117 @@ h4 {
 /*
    Gallery Code End
 */
+/*
+   Contact Code Start
+*/
+.contact__area {
+  background-color: #ddd;
+  padding: 80px 0;
+}
+
+.contact__area__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact__area__contact-form {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+
+.contact__area__contact-form input,
+.contact__area__contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.contact__area__contact-form textarea {
+  height: 110px;
+}
+
+.contact__area__contact-form input[type="submit"] {
+  background-color: tomato;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.contact__area__contact-form input[type="submit"]:hover {
+  background-color: teal;
+}
+
+.contact__area__contact-address {
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
+}
+
+.contact__area__contact-address .single__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact__area__contact-address .single__contact i {
+  display: inline-block;
+  background-color: tomato;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+  padding: 5px;
+}
+
+.contact__area__contact-address .single__contact h3 {
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 22px;
+}
+
+.contact__area__contact-address .single__contact h3 span {
+  display: block;
+  font-size: 16px;
+  text-transform: lowercase;
+  font-weight: normal;
+}
+
+/*
+   Contact Code End
+*/
+/*
+   Footer Code Start
+*/
+.footer__area {
+  background-color: teal;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer__area p {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+/*
+   Footer Code End
+*/
 /*# sourceMappingURL=style.css.map */

@@ -194,12 +194,102 @@ h4 {
       margin-bottom: 35px;
     }
   }
-  img{
-     border: 3px solid #ddd;
-     padding: 3px;
-     border-radius: 15px;
+  img {
+    border: 3px solid #ddd;
+    padding: 3px;
+    border-radius: 15px;
   }
 }
 /*
    Gallery Code End
+*/
+
+/*
+   Contact Code Start
+*/
+.contact__area {
+  background-color: #ddd;
+  padding: 80px 0;
+  &__contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &-form {
+      flex-basis: 60%;
+      input,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+      }
+      textarea {
+        height: 110px;
+      }
+      input[type="submit"] {
+        background-color: tomato;
+        border: 0;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: 0.4s;
+        cursor: pointer;
+        &:hover {
+          background-color: teal;
+        }
+      }
+    }
+    &-address {
+      flex-basis: 35%;
+      .single__contact {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        i {
+          display: inline-block;
+          background-color: tomato;
+          color: #fff;
+          width: 40px;
+          height: 40px;
+          text-align: center;
+          line-height: 40px;
+          border-radius: 50%;
+          margin-right: 12px;
+          padding: 5px;
+        }
+        h3 {
+          display: inline-block;
+          text-transform: capitalize;
+          font-size: 22px;
+          span {
+            display: block;
+            font-size: 16px;
+            text-transform: lowercase;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+}
+/*
+   Contact Code End
+*/
+/*
+   Footer Code Start
+*/
+
+.footer__area {
+  background-color: teal;
+  text-align: center;
+  padding: 20px 0;
+  p {
+    color: #fff;
+    text-transform: capitalize;
+  }
+}
+/*
+   Footer Code End
 */

@@ -36,6 +36,16 @@ ul {
   margin: 0 auto;
 }
 
+.title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+h4 {
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
 /*
    Common Code End
 */
@@ -95,5 +105,125 @@ ul {
 
 /*
    Banner Code End
+*/
+/*
+   About Code Start
+*/
+.about__area {
+  padding: 80px 0;
+}
+
+.about__area-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.about__area-title h4 {
+  text-transform: capitalize;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.about__area-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about__area-about .icon {
+  border: 1px solid #ddd;
+  height: 50px;
+  width: 50px;
+}
+
+.about__area-about-single {
+  -ms-flex-preferred-size: 32%;
+      flex-basis: 32%;
+  border: 1px solid #ddd;
+  padding: 40px 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.about__area-about-single:hover {
+  border-color: tomato;
+}
+
+.about__area-about-single h4 {
+  text-transform: capitalize;
+  margin: 10px 0px;
+  font-size: 24px;
+}
+
+.about__area-about-single p {
+  text-align: justify;
+}
+
+/*
+   About Code End
+*/
+/*
+   Services Code Start
+*/
+.services__area {
+  background-color: #f2f2f2;
+  padding: 80px 0;
+}
+
+.services__area-service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services__area-service-single {
+  background-color: #fff;
+  padding: 20px;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+.services__area-service-single h4 {
+  text-align: center;
+  background-color: teal;
+  color: whitesmoke;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.services__area-service-single p {
+  line-height: 28px;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.services__area-service-single a {
+  background-color: tomato;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.services__area-service-single a:hover {
+  background-color: teal;
+}
+
+/*
+   Services Code End
 */
 /*# sourceMappingURL=style.css.map */

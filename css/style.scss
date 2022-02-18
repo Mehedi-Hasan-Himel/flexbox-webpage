@@ -28,6 +28,14 @@ ul {
   width: 1200px;
   margin: 0 auto;
 }
+.title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+h4 {
+  text-transform: capitalize;
+  font-size: 40px;
+}
 /*
    Common Code End
 */
@@ -66,13 +74,105 @@ ul {
 /*
    Banner Code Start
 */
-.banner__area img{
-   border: 3px solid #ddd;
-   padding: 3px;
-   border-radius: 7px;
-   width: 100%;
+.banner__area img {
+  border: 3px solid #ddd;
+  padding: 3px;
+  border-radius: 7px;
+  width: 100%;
 }
 /*
    Banner Code End
 */
 
+/*
+   About Code Start
+*/
+.about__area {
+  padding: 80px 0;
+  &-title {
+    text-align: center;
+    margin-bottom: 45px;
+    h4 {
+      text-transform: capitalize;
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+  }
+  &-about {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .icon {
+      border: 1px solid #ddd;
+      height: 50px;
+      width: 50px;
+    }
+    &-single {
+      flex-basis: 32%;
+      border: 1px solid #ddd;
+      padding: 40px 20px;
+      transition: 0.3s;
+      &:hover{
+         border-color: tomato;
+      }
+      h4 {
+        text-transform: capitalize;
+        margin: 10px 0px;
+        font-size: 24px;
+      }
+      p {
+        text-align: justify;
+      }
+    }
+  }
+}
+/*
+   About Code End
+*/
+
+/*
+   Services Code Start
+*/
+.services__area {
+  background-color: #f2f2f2;
+  padding: 80px 0;
+
+  &-service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &-single {
+      background-color: #fff;
+      padding: 20px;
+      flex-basis: 30%;
+      h4 {
+        text-align: center;
+        background-color: teal;
+        color: whitesmoke;
+        padding: 20px;
+        margin-bottom: 10px;
+        font-size: 22px;
+      }
+      p {
+        line-height: 28px;
+        margin: 20px 0;
+        text-align: justify;
+      }
+      a {
+        background-color: tomato;
+        color: #fff;
+        text-transform: capitalize;
+        padding: 10px 30px;
+        display: inline-block;
+        transition: 0.3s;
+        &:hover {
+          background-color: teal;
+        }
+      }
+    }
+  }
+}
+/*
+   Services Code End
+*/

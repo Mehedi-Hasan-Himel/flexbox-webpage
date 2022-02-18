@@ -1,0 +1,78 @@
+/*
+   Common Code Start
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+/*
+   Common Code End
+*/
+
+/*
+   Header Code Start
+*/
+.header__area {
+  padding: 30px 0;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo a {
+      color: #333;
+      text-transform: uppercase;
+      font-size: 26px;
+      font-weight: 700;
+    }
+    &__menu ul {
+      display: flex;
+      li a {
+        text-transform: capitalize;
+        margin-left: 20px;
+        &:hover {
+          color: tomato;
+        }
+      }
+    }
+  }
+}
+/*
+   Header Code End
+*/
+
+/*
+   Banner Code Start
+*/
+.banner__area img{
+   border: 3px solid #ddd;
+   padding: 3px;
+   border-radius: 7px;
+   width: 100%;
+}
+/*
+   Banner Code End
+*/
+

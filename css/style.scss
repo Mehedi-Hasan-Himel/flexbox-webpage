@@ -113,8 +113,11 @@ h4 {
       border: 1px solid #ddd;
       padding: 40px 20px;
       transition: 0.3s;
-      &:hover{
-         border-color: tomato;
+      &:hover {
+        border-color: tomato;
+        .icon {
+          border-color: rgb(184, 35, 9);
+        }
       }
       h4 {
         text-transform: capitalize;
@@ -175,4 +178,28 @@ h4 {
 }
 /*
    Services Code End
+*/
+
+/*
+   Gallery Code Start
+*/
+.gallery__area {
+  padding: 80px 0;
+  &__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &-single {
+      flex-basis: 23%;
+      margin-bottom: 35px;
+    }
+  }
+  img{
+     border: 3px solid #ddd;
+     padding: 3px;
+     border-radius: 15px;
+  }
+}
+/*
+   Gallery Code End
 */

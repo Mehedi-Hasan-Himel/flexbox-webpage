@@ -216,7 +216,7 @@ h4 {
     justify-content: space-between;
 
     &-form {
-      flex-basis: 60%;
+      flex-basis: 50%;
       input,
       textarea {
         width: 100%;
@@ -292,4 +292,84 @@ h4 {
 }
 /*
    Footer Code End
+*/
+
+/*
+Responsive Design Code Start
+*/
+/* Medium Layout: 1280px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Tablet Layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Mobile Layout: 320px */
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 280px;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .about__area {
+    padding: 10px 0;
+    &-about-single {
+      flex-basis: 100%;
+      margin: 20px;
+    }
+  }
+  .services__area {
+    padding: 0;
+    &-service-single {
+      padding: 20px;
+      flex-basis: 100%;
+      margin: 0px;
+      margin-bottom: 10px;
+    }
+  }
+  .title {
+    margin-bottom: 0;
+  }
+
+  .gallery__area {
+    padding: 0;
+    &__gallery-single {
+      flex-basis: 48%;
+      margin-bottom: 5%;
+    }
+  }
+  .contact__area {
+     padding: 0;
+    &__contact {
+      &-form {
+        flex-basis: 100%;
+        margin-bottom: 5%;
+      }
+      &-address {
+        flex-basis: 100%;
+      }
+    }
+  }
+}
+/* Wide Mobile Layout: 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   .container{
+      width: 450px;
+   }
+}
+/*
+Responsive Design Code End
 */
